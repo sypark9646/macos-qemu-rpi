@@ -2,7 +2,7 @@
 
 set -euxo pipefail
 
-readonly IMAGE='2021-10-30-raspios-bullseye-armhf-lite'
+readonly IMAGE='2019-07-10-raspbian-buster'
 readonly KERNEL='kernel8.img'
 readonly DTB='bcm2710-rpi-3-b-plus.dtb'
 
