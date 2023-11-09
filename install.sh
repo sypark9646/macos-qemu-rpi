@@ -2,7 +2,7 @@
 
 set -euxo pipefail
 
-readonly IMAGE='2020-02-13-raspbian-buster-lite'
+readonly IMAGE='2019-07-10-raspbian-buster'
 readonly KERNEL='kernel-qemu-5.4.51-buster'
 readonly PTB='versatile-pb-buster-5.4.51.dtb'
 
@@ -13,7 +13,7 @@ readonly PTB_FILE="${TMP_DIR}/${PTB}"
 # commit hash to use for the https://github.com/dhruvvyas90/qemu-rpi-kernel/ repo:
 readonly COMMIT_HASH='061a3853cf2e2390046d163d90181bde1c4cd78f'
 
-readonly IMAGE_URL="https://downloads.raspberrypi.org/raspbian_lite/images/raspbian_lite-2020-02-14/${IMAGE}.zip"
+readonly IMAGE_URL="https://downloads.raspberrypi.org/raspbian_lite/images/raspbian-2019-07-12/${IMAGE}.zip"
 readonly KERNEL_URL="https://github.com/dhruvvyas90/qemu-rpi-kernel/blob/${COMMIT_HASH}/${KERNEL}?raw=true"
 readonly PTB_URL="https://github.com/dhruvvyas90/qemu-rpi-kernel/blob/${COMMIT_HASH}/${PTB}?raw=true"
 
