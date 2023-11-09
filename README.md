@@ -33,10 +33,10 @@ TCP/22 on the Raspbian guest where Raspbian's SSH server is listening.
 To run Raspbian in QEMU, no other application including Raspbian may listen on
 port TCP/5022 on the host.
 
-<default>
-- id: pi
-- password: raspberry
-- sudo: sudo -i
+- default info
+  - id: pi
+  - password: raspberry
+  - sudo: sudo -i
 
 # Logging into Raspbian
 
