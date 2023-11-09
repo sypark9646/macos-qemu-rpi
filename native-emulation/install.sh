@@ -53,7 +53,7 @@ extract_images () {
   [ -f "${IMAGE}.img" ] || \
     unzip "${IMAGE}.zip"
   [ -f "${IMAGE}.img" ] && \
-    qemu-img resize -f raw "${IMAGE}.img" 2G
+    qemu-img resize -f raw "${IMAGE}.img" 4G
 }
 
 main () {
